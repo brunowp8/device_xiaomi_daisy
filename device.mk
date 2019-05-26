@@ -124,6 +124,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# ThermalController app
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
