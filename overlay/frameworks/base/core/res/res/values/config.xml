@@ -539,7 +539,11 @@
 
    <!-- Component name for default assistant on this device -->
    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
-    
+
    <!-- Enable dual LTE capability support-->
    <bool name="config_dual_LTE_capability">true</bool>
+
+   <!-- Whether the always on display mode is available. -->
+   <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
 </resources>
