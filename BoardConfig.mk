@@ -150,6 +150,9 @@ TARGET_RIL_VARIANT := caf
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
+# We modify several neverallows, so let the build proceed
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Sensors
 USE_SENSOR_MULTI_HAL := true
 
