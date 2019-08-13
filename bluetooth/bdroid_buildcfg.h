@@ -21,6 +21,7 @@
  #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
  // Disables read remote device feature
+#define BTM_DEF_LOCAL_NAME   "Mi A2 Lite"
 #define MAX_ACL_CONNECTIONS   16
 #define MAX_L2CAP_CHANNELS    16
 #define BLE_VND_INCLUDED   TRUE
