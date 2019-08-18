@@ -15,4 +15,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_daisy.mk
+    $(LOCAL_DIR)/havoc_daisy.mk
