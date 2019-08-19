@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/audio_effects.xml:system/etc/audio_effects.xml
 
+# Bootanimation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2280
+
 # Boot control
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
