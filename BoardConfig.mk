@@ -57,7 +57,7 @@ TARGET_KERNEL_CONFIG := daisy_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/daisy
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 endif
 
 NEED_KERNEL_MODULE_SYSTEM := true
